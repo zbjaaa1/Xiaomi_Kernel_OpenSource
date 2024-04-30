@@ -414,7 +414,7 @@ drm_bridge_chain_mode_valid(struct drm_bridge *bridge,
 	return MODE_OK;
 }
 EXPORT_SYMBOL(drm_bridge_chain_mode_valid);
-
+/*
 void drm_bridge_disp_param_set(struct drm_bridge *bridge, int cmd)
 {
 	if (!bridge)
@@ -425,7 +425,7 @@ void drm_bridge_disp_param_set(struct drm_bridge *bridge, int cmd)
 	if (bridge->funcs->disp_param_set)
 		bridge->funcs->disp_param_set(bridge, cmd);
 }
-
+*/
 /**
  * drm_bridge_chain_disable - disables all bridges in the encoder chain
  * @bridge: bridge control structure
